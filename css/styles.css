@@ -144,9 +144,8 @@ h1,h2,h3,h4,ul,p{
     color: var(--secondary-font-color);
 }
 .contact-icon{
-   
     margin-right: 10px;
-
+    fill: var(--secondary-font-color);
 }
 
 .nav-link,
@@ -246,7 +245,8 @@ h1,h2,h3,h4,ul,p{
     justify-content: center;
     align-items: center;
     background-color: var(--secondary-light-color);
-    padding: 25px 100px;
+    width: 270px;
+    height: 120px;
     margin-bottom: 30px;
     border-radius: 4px;
 }
@@ -324,8 +324,6 @@ h1,h2,h3,h4,ul,p{
     display: flex;
     justify-content: center;
     column-gap: 30px;
-    margin-top: 50px;
-
 }
 
 .client-list-icon{
@@ -442,10 +440,7 @@ h1,h2,h3,h4,ul,p{
     background-color: var(--hover-color);
 }
 
-.social-footer-link:hover .social-footer-icon,
-.social-footer-link:focus .social-footer-icon {
-    fill: var(--main-light-color);
-}
+
 
 /*Portfolio*/
 .button-wrap{
